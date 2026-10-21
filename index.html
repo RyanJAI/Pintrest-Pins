@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Interests | Pinterest Project</title>
+
+    <!-- External stylesheet -->
+    <link rel="stylesheet" href="pinstyle.css">
+
+    <!-- Internal styling: applies special styling to groups of pins -->
+    <style>
+        body {
+            background: linear-gradient(135deg, #eef2ff, #fdf2f8);
+        }
+
+        .tech-pin {
+            border-color: #6366f1;
+        }
+
+        .lifestyle-pin {
+            border-color: #0f766e;
+        }
+
+        .pin h2 {
+            background-color: rgba(255, 255, 255, 0.92);
+        }
+
+        .pin p {
+            background-color: rgba(255, 255, 255, 0.91);
+        }
+    </style>
+</head>
+<body>
+    <header class="page-header">
+        <p class="eyebrow">A LITTLE BIT ABOUT ME</p>
+        <h1>My Interests</h1>
+        <p class="subtitle">Things I enjoy, projects I want to build, and hobbies I keep coming back to.</p>
+    </header>
+
+    <main class="pin-board">
+        <div class="pin tech-pin" style="background-image: url('https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=900&q=85');">
+            <h2>Gaming</h2>
+            <p>Gaming is one of my favorite ways to relax. I especially enjoy competitive games, improving my skills, and sharing funny moments with friends.</p>
+            <span class="tag">HOBBY</span>
+        </div>
+
+        <div class="pin tech-pin tall" style="background-image: url('https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=900&q=85');">
+            <h2>Programming</h2>
+            <p>I enjoy learning Java, Python, SQL, HTML, and CSS. Building something from scratch makes programming feel like solving a puzzle.</p>
+            <ul>
+                <li>Practice coding</li>
+                <li>Build useful apps</li>
+                <li>Learn new tools</li>
+            </ul>
+            <span class="tag">COMPUTER SCIENCE</span>
+        </div>
+
+        <div class="pin tech-pin" style="background-image: url('https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=900&q=85');">
+            <h2>Artificial Intelligence</h2>
+            <p>AI is fascinating because it combines data, software, and creative problem-solving. I want to experiment with models that can recognize images and sounds.</p>
+            <span class="tag">FUTURE PROJECTS</span>
+        </div>
+
+        <div class="pin lifestyle-pin tall" style="background-image: url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=900&q=85');">
+            <h2>Fitness</h2>
+            <p>Going to the gym helps me stay active, work toward goals, and build consistency. I like tracking progress and getting stronger over time.</p>
+            <span class="tag">HEALTH & FITNESS</span>
+        </div>
+
+        <div class="pin lifestyle-pin" style="background-image: url('https://images.unsplash.com/photo-1606501018888-0a0a0a0a0a0a?auto=format&fit=crop&w=900&q=85');">
+            <h2>Pokémon Cards</h2>
+            <p>Collecting Pokémon cards is a fun mix of nostalgia, finding favorite artwork, and learning how the trading-card market works.</p>
+            <span class="tag">COLLECTING</span>
+        </div>
+
+        <div class="pin tech-pin" style="background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=85');">
+            <h2>Building with Tech</h2>
+            <p>I like learning how computers work, upgrading hardware, troubleshooting problems, and finding ways technology can make everyday tasks easier.</p>
+            <span class="tag">TECH</span>
+        </div>
+    </main>
+
+    <footer>
+        <p>Made for my CSS Pinterest Pins project · HTML + CSS</p>
+    </footer>
+</body>
+</html>
